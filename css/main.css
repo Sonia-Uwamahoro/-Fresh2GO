@@ -110,7 +110,7 @@ html {
       height: 0px;
     }
     .nav>#nav-check:checked~.nav-links {
-      height: calc(25vh - 50px);
+      height: calc(50vh - 50px);
       overflow-y: auto;
     }
   }  
@@ -528,3 +528,43 @@ padding-top: 30em !important;
   padding: 3em;
 }
 /*----------------------------------- Footer  end------------------------------------ */
+
+/* ..................Section5...................... */
+.contact {
+  margin: 3em 3em 6em 3em;
+}
+
+.icons-container{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+ text-align: center;
+}
+
+.icons-container .icons{
+  background-color: #021A08;
+  padding: 2em;
+  margin: 2em;
+  color: white;
+}
+
+.icons-container .icons h3{
+  font-size: 1.5em;
+  padding-bottom: .5em;
+  padding-top: .3em;
+}
+
+
+
+.contact .icons-container .icons i {
+  height: 3.5rem;
+  width: 3.5rem;
+  line-height: 3.5rem;
+  font-size: 1.5rem;
+  background: #8BC746;
+  color: #fff;
+  border-radius: 50%;
+}
+
+
+
+
